@@ -3492,70 +3492,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yuva/frontend@workspace:apps/frontend":
-  version: 0.0.0-use.local
-  resolution: "@yuva/frontend@workspace:apps/frontend"
-  dependencies:
-    "@types/react": "npm:^18.3.18"
-    "@types/react-dom": "npm:^18.3.5"
-    "@vitejs/plugin-react-swc": "npm:^3.5.0"
-    eslint-plugin-react-hooks: "npm:^5.0.0"
-    eslint-plugin-react-refresh: "npm:^0.4.16"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    vite: "npm:^6.0.5"
-  languageName: unknown
-  linkType: soft
-
-"@yuva/react-app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@yuva/react-app@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^9.18.0"
-    eslint: "npm:^9.18.0"
-    globals: "npm:^15.14.0"
-    prettier: "npm:^3.4.2"
-    turbo: "npm:^2.3.4"
-    typescript: "npm:^5.7.3"
-    typescript-eslint: "npm:^8.20.0"
-  languageName: unknown
-  linkType: soft
-
-"@yuva/server@workspace:apps/server":
-  version: 0.0.0-use.local
-  resolution: "@yuva/server@workspace:apps/server"
-  dependencies:
-    "@eslint/eslintrc": "npm:^3.2.0"
-    "@nestjs/cli": "npm:^11.0.0"
-    "@nestjs/common": "npm:^11.0.1"
-    "@nestjs/core": "npm:^11.0.1"
-    "@nestjs/graphql": "npm:^13.0.2"
-    "@nestjs/platform-express": "npm:^11.0.1"
-    "@nestjs/schematics": "npm:^11.0.0"
-    "@nestjs/testing": "npm:^11.0.1"
-    "@swc/cli": "npm:^0.6.0"
-    "@swc/core": "npm:^1.10.7"
-    "@types/express": "npm:^5.0.0"
-    "@types/jest": "npm:^29.5.14"
-    "@types/node": "npm:^22.10.7"
-    "@types/supertest": "npm:^6.0.2"
-    apollo-server-express: "npm:^3.13.0"
-    eslint-config-prettier: "npm:^10.0.1"
-    eslint-plugin-prettier: "npm:^5.2.2"
-    graphql: "npm:^16.10.0"
-    graphql-tools: "npm:^9.0.11"
-    jest: "npm:^29.7.0"
-    reflect-metadata: "npm:^0.2.2"
-    rxjs: "npm:^7.8.1"
-    source-map-support: "npm:^0.5.21"
-    supertest: "npm:^7.0.0"
-    ts-jest: "npm:^29.2.5"
-    ts-loader: "npm:^9.5.2"
-    ts-node: "npm:^10.9.2"
-    tsconfig-paths: "npm:^4.2.0"
-  languageName: unknown
-  linkType: soft
-
 "abbrev@npm:^3.0.0":
   version: 3.0.0
   resolution: "abbrev@npm:3.0.0"
@@ -5758,6 +5694,21 @@ __metadata:
   checksum: 10c0/c6d27f3ed86cc5b601404822f31c900dd165ba63fff8152a3ef714e2012e7535027063bc67ded4cb5b3a49fa596495d46cacd9f47d6328459cf570f08b7d9e5a
   languageName: node
   linkType: hard
+
+"frontend@workspace:apps/frontend":
+  version: 0.0.0-use.local
+  resolution: "frontend@workspace:apps/frontend"
+  dependencies:
+    "@types/react": "npm:^18.3.18"
+    "@types/react-dom": "npm:^18.3.5"
+    "@vitejs/plugin-react-swc": "npm:^3.5.0"
+    eslint-plugin-react-hooks: "npm:^5.0.0"
+    eslint-plugin-react-refresh: "npm:^0.4.16"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    vite: "npm:^6.0.5"
+  languageName: unknown
+  linkType: soft
 
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
@@ -8294,6 +8245,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-app@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "react-app@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.18.0"
+    eslint: "npm:^9.18.0"
+    globals: "npm:^15.14.0"
+    prettier: "npm:^3.4.2"
+    turbo: "npm:^2.3.4"
+    typescript: "npm:^5.7.3"
+    typescript-eslint: "npm:^8.20.0"
+  languageName: unknown
+  linkType: soft
+
 "react-dom@npm:^18.3.1":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
@@ -8772,6 +8737,41 @@ __metadata:
   checksum: 10c0/f5b36fd3a763cdb4bf367c9be2eff587c0e52685fcf9109aa28428457c4aad0f83d8b6a1bf4929488963270026f3647f2d221c898e6dbdf9f4f5b09ed0b1f51a
   languageName: node
   linkType: hard
+
+"server@workspace:apps/server":
+  version: 0.0.0-use.local
+  resolution: "server@workspace:apps/server"
+  dependencies:
+    "@eslint/eslintrc": "npm:^3.2.0"
+    "@nestjs/cli": "npm:^11.0.0"
+    "@nestjs/common": "npm:^11.0.1"
+    "@nestjs/core": "npm:^11.0.1"
+    "@nestjs/graphql": "npm:^13.0.2"
+    "@nestjs/platform-express": "npm:^11.0.1"
+    "@nestjs/schematics": "npm:^11.0.0"
+    "@nestjs/testing": "npm:^11.0.1"
+    "@swc/cli": "npm:^0.6.0"
+    "@swc/core": "npm:^1.10.7"
+    "@types/express": "npm:^5.0.0"
+    "@types/jest": "npm:^29.5.14"
+    "@types/node": "npm:^22.10.7"
+    "@types/supertest": "npm:^6.0.2"
+    apollo-server-express: "npm:^3.13.0"
+    eslint-config-prettier: "npm:^10.0.1"
+    eslint-plugin-prettier: "npm:^5.2.2"
+    graphql: "npm:^16.10.0"
+    graphql-tools: "npm:^9.0.11"
+    jest: "npm:^29.7.0"
+    reflect-metadata: "npm:^0.2.2"
+    rxjs: "npm:^7.8.1"
+    source-map-support: "npm:^0.5.21"
+    supertest: "npm:^7.0.0"
+    ts-jest: "npm:^29.2.5"
+    ts-loader: "npm:^9.5.2"
+    ts-node: "npm:^10.9.2"
+    tsconfig-paths: "npm:^4.2.0"
+  languageName: unknown
+  linkType: soft
 
 "setprototypeof@npm:1.2.0":
   version: 1.2.0
